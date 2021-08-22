@@ -1,0 +1,13 @@
+kad zelim povuci promjene sa repozitorija(origina)
+git pull origin main
+
+
+kada zelim comitati promjene
+git status
+git add .
+git commit -m "neka poruka"
+
+
+
+kada zelim pushati na repozitorij
+git push origin main
