@@ -1,26 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        naslov 123
       </header>
+
+
+
+
+
+  
+      <div  className="tijelo"> 
+  
+      
+
+
+        <img  src="https://www.greenqueen.com.hk/wp-content/uploads/2021/06/WEF-Investments-In-Nature-Based-Solutions-Have-To-Triple-By-2030-To-Address-Climate-Change-Biodiversity-Loss.jpg"   alt="Logo"  className="slika"/>
+  
+        
+
+        
+       <img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall-750x500.jpg"     alt="Logo" className="slika" />           
+       
+ 
+       
+       </div>
+      
+     
+   
+      <footer className="dolje">
+        footer
+      </footer>
+
+   
     </div>
+  
+  
+
+
   );
 }
 
-export default App;
+
+
+
+
+export default App ;
