@@ -1,0 +1,75 @@
+.App {
+  
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+.App-header {
+  background-color: #040c1f;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10mm;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tijelo{
+  background-color: #df1c0e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+
+
+.slika  {
+width: 300px;
+
+  
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .slika {
+    width: 20%;
+  }
+  .tijelo{
+    
+    flex-direction: column;
+    
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .slika {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.dolje{
+  background-color: #040c1f;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10mm;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
